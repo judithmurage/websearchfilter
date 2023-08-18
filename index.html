@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Technical Training Institutes in Kenya</title>
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.7.1/dist/leaflet.css" />
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div id="map"></div>
+  <div id="filters">
+    <label for="course">Select Course:</label>
+    <select id="course">
+      <option value="All">All Courses</option>
+      <option value="Electrical Engineering">Electrical Engineering</option>
+      <option value="Mechanical Engineering">Mechanical Engineering</option>
+      <!-- Add more course options... -->
+    </select>
+    <input type="text" id="search" placeholder="Search Institute...">
+    <button id="reset">Reset Filters</button>
+  </div>
+  <script src="https://unpkg.com/leaflet@1.7.1/dist/leaflet.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
